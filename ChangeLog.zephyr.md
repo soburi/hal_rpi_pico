@@ -3,6 +3,8 @@
 Need to take care to not break these changes when updating pico-sdk.
 
 ## Patch List:
+  - [#10] pico-sdk: Disabling bazel build
+    - .github/workflows/bazel_build.yml
   - [#9] pico-sdk: Disabling sanity check the IRQ status
     - src/rp2_common/hardware_gpio/gpio.c
   - [#8] pico-sdk: pico_platform_compiler: Do not redefine `__weak`
